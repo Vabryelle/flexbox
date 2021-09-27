@@ -25,8 +25,13 @@ header{
 .flex-container .nav{
 	flex-grow: 1;
 	flex-direction: column;
+	background-color: darkgrey;
+	text-decoration: underline;
 }
-
+.flex-container .nav2{
+	flex-direction: column;
+	background-color: lightblue;
+}
 
 
 footer{ 
