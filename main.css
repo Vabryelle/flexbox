@@ -3,22 +3,35 @@
 .container{ 
 	width:1020px;
 	margin:0 auto;
-	background-color: darkslateblue;
+	background-color: aliceblue;
 }
 header{ 
 	width:100%;
 	text-align: center;
+	
 }
 .flex-containter{
 	display: flex;
 	background-color: lightpink;
+	flex-direction: row;
+	align-items: stretch;
+	height: 150px;
 }
-
-
+.flex-containter div{
+	height: 150px;
+	background-color: darkseagreen;
+	flex-grow: 4;
+	
+}
+.flex-containter .nav{
+	flex-grow: 1;
+}
 
 
 
 footer{ 
 	width:100%;
 	text-align: center;
+	background-color: cadetblue;
+
 }
