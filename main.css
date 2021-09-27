@@ -13,13 +13,12 @@ header{
 }
 .flex-container{
 	display: flex;
-	background-color: lightpink;
+	background-color: ghostwhite;
 	flex-direction: row;
 	align-items: stretch;
 	height: 150px;
 }
 .flex-container div{
-	background-color: darkseagreen;
 	flex-grow: 4;
 	
 }
@@ -40,5 +39,9 @@ footer{
 @media (max-width:800px) {
 	.flex-container {
 		flex-direction: column;
+	}
+	header{
+		background-color: honeydew;
+		
 	}
 }
