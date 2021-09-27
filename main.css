@@ -32,7 +32,9 @@ header{
 	flex-direction: column;
 	background-color: lightblue;
 }
-
+.flex-container .nav3{
+	background-color: burlywood
+}
 
 footer{ 
 	width:100%;
